@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ViewFlipper
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/flipper"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tourism is the activities of people traveling to and staying in places outside their usual environment for leisure, business or other purposes for not more than one consecutive year.\nHere are 10 of the most beautiful places on Earth — from cascading waterfalls and towering mountains, to tropical islands and picturesque cities.
+The South Island of New Zealand boasts one of the world's most picturesque fjords. Known as Milford Sound, it is located along the Island's southwest coast, about 60 miles (96 kilometers) northwest of Queenstown, which is a resort center famous for its skiing and outdoor activities.
+The whitewashed, blue-capped houses of the Greek village of Fira are typical of the many picturesque villages of modern-day Greece. But these particular houses, along with those of Fira's sister city Oia, are perched impossibly on the ridge of a caldera and command a bold, panoramic view of the surrounding Aegean Sea.
+The first thing you notice about Iceland's largest glacial lagoon is the dazzling blueness of the water. It has a crystalline quality that is mesmerizing and otherworldly. Brilliant white icebergs, broken off of the nearby glacier, float about, resembling clouds drifting in the sky.
+Flanked on the south by the tempestuous Southern Ocean, the Great Ocean Road is Australia's most scenic highway. It passes by some of the country's most amazing vistas and natural landmarks, and is on Australia's National Heritage list, a list of places deemed to be of outstanding historical, natural and cultural significance to Australia.
+In 1881, the famous British general Charles  Gordon thought he had stumbled across the biblical Garden of Eden — literally. He claimed it was on an island in the middle of the Indian Ocean, now known as Praslin in the Republic of Seychelles.
+
+Seychelles is an archipelago of 115 islands nearly 1,000 miles off Africa's east coast. The islands are the epitome of postcard perfect: Stately palm trees sway above pristine white beaches and brilliant turquoise water."
+        android:layout_below="@id/flipper"
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="15sp"
+        android:layout_marginLeft="10sp"
+        android:background="@color/purple_200"
+        />
+
+</RelativeLayout>
+</ScrollView>
